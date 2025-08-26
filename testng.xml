@@ -6,7 +6,7 @@
     <listener class-name="Utility.TestListener"/>
   </listeners>
 
-  <test thread-count="1" name="Regression">
+  <test thread-count="2" name="Regression">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="TestScript.AddUserTestScript"/>
