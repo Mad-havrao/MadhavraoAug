@@ -1,0 +1,12 @@
+[INFO ] 2025-01-19 11:11:20.188 [main] Log - verifyLogin Test is starting. 
+[INFO ] 2025-01-19 11:11:21.339 [main] Log - User entered username and password.
+[INFO ] 2025-01-19 11:11:22.628 [main] Log - User redirected to dashboard page.
+[INFO ] 2025-01-19 11:11:22.648 [main] Log - verifyLoginTest is passed
+[INFO ] 2025-01-19 11:11:25.688 [main] Log - verifyAddUser Test is starting. 
+[INFO ] 2025-01-19 11:11:28.507 [main] Log - User entered username and password.
+[INFO ] 2025-01-19 11:11:28.532 [main] Log - User redirected to dashboard page.
+[INFO ] 2025-01-19 11:11:28.966 [main] Log - User clicked on user tab.
+[INFO ] 2025-01-19 11:11:29.428 [main] Log - User clicked on add user button.
+[INFO ] 2025-01-19 11:11:30.904 [main] Log - User filled all mandatory information.
+[INFO ] 2025-01-19 11:11:30.916 [main] Log - verifyAddUserTest is passed
+[INFO ] 2025-01-19 11:11:31.658 [main] Log - I am on finish method Test

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Utility.TestListener"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="TestScript.AddUserTestScript">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddUser"/>
+        </methods>
+      </class> <!-- TestScript.AddUserTestScript -->
+      <class name="TestScript.LoginScript">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestScript.LoginScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
